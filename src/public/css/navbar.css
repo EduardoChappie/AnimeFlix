@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0; 
+}
+section {
+	margin-top: 8px;
+}
+div#navbars {
+	width: 100%;
+	padding: 15px;
+	background: #192a45;
+}
+#navbars > nav{
+	width: 75%;
+	margin: 0 auto;
+	text-align: left;
+	display: inline-block;
+}
+#navbars nav > ul > li{
+	display: inline-block;
+}
+#navbars nav > ul > li > a {
+	color: white;
+	text-decoration: none;
+	font: normal 15pt Arial;
+	margin-right: 12px;
+}
+
+div#search input {
+	font: italic 10pt Calibri;
+	height: 28px;
+}
+div#search {
+	margin-right: auto;
+	display: inline-block;
+}
