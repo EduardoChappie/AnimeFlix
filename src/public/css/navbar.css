@@ -34,3 +34,10 @@ div#search {
 	margin-right: auto;
 	display: inline-block;
 }
+
+div#menuzao {
+	width: 65%;
+	margin: 0 auto;
+	font: normal 14pt Arial;
+	text-align: center;
+}

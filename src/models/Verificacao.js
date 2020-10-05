@@ -16,8 +16,14 @@ function theUserAdmin(user) {
 		.find({ id: 0 })
 		.value()
 
-	if (user.nome===admin.nome) {
-		if (user.pass==admin.senha) {
+	if (user.nome.toLowerCase()===admin.nome.toLowerCase()) {
+
+		if (user.pass.toLowerCase()==admin.senha.toLowerCase()) {
+
+			lowdb.get("usuarios")
+				.find({ cat: "admin" })
+				.assign({ type: "online" })
+				.write()
 			return true
 
 		} else {
