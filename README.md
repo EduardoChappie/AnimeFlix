@@ -1,4 +1,4 @@
-#AnimeStore
+# AnimeStore
 
 Ok, eu sei que esse projeto é esquisito, pois tem haver com animes ;-;
 
